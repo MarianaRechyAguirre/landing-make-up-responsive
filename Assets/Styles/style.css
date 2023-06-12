@@ -1,0 +1,99 @@
+body {
+  background-image: url("/Assets/Images/header/band-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+}
+header .menu-container {
+  width: 100%;
+  height: 90px;
+  margin-top: 10px;
+}
+header .menu-container .logo {
+  width: 56px;
+  height: 56px;
+  margin-left: 15px;
+}
+header .menu-container .menu {
+  margin-right: 16px;
+}
+
+.one {
+  background-color: #F5F8FF;
+  width: 100%;
+  height: 1063px;
+  background-image: url("/Assets/Images/one/BOX.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.looker {
+  width: 100%;
+}
+.looker .look {
+  width: 307px;
+  height: 493px;
+  margin-left: 38px;
+  margin-right: 30px;
+  padding-top: 43px;
+}
+.looker .look .title {
+  height: 224px;
+  font-size: 48px;
+  line-height: 56px;
+}
+.looker .look .upbox {
+  width: 293px;
+  height: 166px;
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    background-image: url("/Assets/Images/header/band.png");
+  }
+  header {
+    height: 70px;
+  }
+  header .menu-container {
+    height: 70px;
+    margin-top: 6px;
+  }
+  .one {
+    height: 709px;
+    background-image: url("/Assets/Images/one/BOX-tablet.png");
+    background-position: 120px 170px;
+  }
+  .looker .look {
+    height: 267px;
+    width: 364px;
+    padding-top: 18px;
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("/Assets/Images/header/band.png");
+  }
+  header {
+    height: 90px;
+  }
+  header .menu-container {
+    height: 90px;
+    margin-top: 6px;
+  }
+  .one {
+    height: 709px;
+    background-image: url("/Assets/Images/one/BOX-tablet.png");
+    background-position: bottom right;
+  }
+  .looker .look {
+    height: 318px;
+    width: 511px;
+    padding-top: 105px;
+    margin-left: 111px;
+  }
+}/*# sourceMappingURL=style.css.map */
