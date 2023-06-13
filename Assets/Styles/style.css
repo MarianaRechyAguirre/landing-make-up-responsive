@@ -4,26 +4,14 @@ body {
   background-position: top;
 }
 
-header {
-  width: 100%;
-  height: 90px;
-}
-header .menu-container {
-  width: 100%;
-  height: 90px;
-  margin-top: 10px;
-}
-header .menu-container .logo {
+.logo {
   width: 56px;
   height: 56px;
   margin-left: 15px;
 }
-header .menu-container .menu {
-  margin-right: 16px;
-}
 
 .one {
-  background-color: #F5F8FF;
+  background-color: #f5f8ff;
   width: 100%;
   height: 1063px;
   background-image: url("/Assets/Images/one/BOX.png");
@@ -58,9 +46,9 @@ header .menu-container .menu {
   header {
     height: 70px;
   }
-  header .menu-container {
-    height: 70px;
-    margin-top: 6px;
+  header .logo {
+    width: 37px;
+    height: 37px;
   }
   .one {
     height: 709px;
@@ -81,9 +69,14 @@ header .menu-container .menu {
   header {
     height: 90px;
   }
-  header .menu-container {
-    height: 90px;
-    margin-top: 6px;
+  header .logo {
+    width: 56px;
+    height: 56px;
+  }
+  header .nav-options {
+    width: 100%;
+    height: 37px;
+    margin-left: 265px;
   }
   .one {
     height: 709px;
