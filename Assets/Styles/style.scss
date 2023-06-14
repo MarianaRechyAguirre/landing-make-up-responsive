@@ -1,10 +1,24 @@
 //variables
 $back: #f5f8ff;
+$border: #ef8094;
+$letters: #000000;
+$border-card:#C4C4C4;
+$white:#FFFFFF;
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Fira+Sans:ital@1&family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&family=Fira+Sans:ital@1&family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-image: url("/Assets/Images/header/band-mobile.png");
   background-repeat: no-repeat;
   background-position: top;
+  background-size: 100%;
 }
 
 .logo {
@@ -16,15 +30,17 @@ body {
 .one {
   background-color: $back;
   width: 100%;
-  height: 1063px;
+  height: 950px;
 
   background-image: url("/Assets/Images/one/BOX.png");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center bottom -150px;
+  background-size: 380px;
 }
 
 .looker {
   width: 100%;
+  color: $letters;
 
   .look {
     width: 307px;
@@ -37,16 +53,81 @@ body {
       height: 224px;
       font-size: 48px;
       line-height: 56px;
+      font-family: "DM Serif Text";
+      margin-bottom: 28px;
     }
 
     .upbox {
-      width: 293px;
+      width: 100%;
       height: 166px;
+      font-family: "DM Sans";
+      font-size: 18px;
+      margin-bottom: 28px;
+    }
+
+    .sig {
+      width: 183px;
+      height: 61px;
+      background-color: $back;
+      border-color: $border;
+      border-width: 5px;
+      border-style: solid;
+      font-family: "DM Sans";
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 12%;
     }
   }
 }
 
-@media only screen and (min-width: 375px) {
+.two {
+  .pick {
+    margin-top: 100px;
+
+    .title {
+        margin-bottom: 47px;
+      span {
+        font-size: 48px;
+        line-height: 56px;
+        font-family: "DM serif Text";
+      }
+    }
+
+    .pays{
+        height: 396px;
+        .pay-card{
+            border-style: solid;
+            border-color: $border-card;
+            width: 348.33px;
+            height: 188.39px;
+            margin-bottom: 19px;
+
+            .mon{
+                font-size: 30px;
+                font-family: "DM serif Text";
+                padding-top: 27.25px;
+            }
+
+            .price{
+                letter-spacing: 12%;
+                font-size: 30px;
+                font-family: "DM Sans";
+                margin-bottom: 5px;
+            }
+
+            .btn{
+               width: 179px;
+               height: 40px;
+               background-color:$border; 
+               color:$white;
+            }
+        }
+    }
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 550px) {
   body {
     background-image: url("/Assets/Images/header/band.png");
   }
@@ -57,56 +138,159 @@ body {
       width: 37px;
       height: 37px;
     }
+    .nav-options {
+      width: 100%;
+      height: 37px;
+      margin-left: 89px;
+
+      li {
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 16%;
+        line-height: 13.02%;
+      }
+
+      .log {
+        width: 105px;
+        height: 32px;
+        background-color: $back;
+        font-size: 10px;
+        border-style: solid;
+      }
+    }
   }
 
   .one {
-    height: 709px;
+    height: 554px;
     background-image: url("/Assets/Images/one/BOX-tablet.png");
-    background-position: 120px 170px;
+    background-position: right bottom -200px;
+    background-size: 700px;
   }
 
   .looker {
+    width: 100%;
+    color: $letters;
+
     .look {
-      height: 267px;
-      width: 364px;
-      padding-top: 18px;
+      width: 370px;
+      height: 276px;
       margin-left: 40px;
+      padding-top: 18px;
+
+      .title {
+        height: 224px;
+        font-size: 42px;
+        line-height: 48px;
+        font-family: "DM Serif Text";
+        margin-bottom: 18px;
+      }
+
+      .upbox {
+        width: 360px;
+        height: 96px;
+        font-family: "DM Sans";
+        font-size: 14px;
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+
+      .sig {
+        width: 183px;
+        height: 61px;
+        background-color: $back;
+        border-color: $border;
+        border-width: 5px;
+        border-style: solid;
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 12%;
+      }
     }
   }
 }
 
-@media only screen and (min-width: 768px) {
+//Desktop
+@media only screen and (min-width: 1000px) {
   body {
     background-image: url("/Assets/Images/header/band.png");
+    background-size: 2000px;
   }
 
   header {
     height: 90px;
     .logo {
-        width: 56px;
-        height: 56px;
+      width: 56px;
+      height: 56px;
+    }
+
+    .nav-options {
+      width: 100%;
+      height: 37px;
+      margin-left: 265px;
+
+      li {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 16%;
+        line-height: 18.23px;
       }
 
-      .nav-options{
-        width: 100%;
-        height: 37px;
-        margin-left: 265px;
+      .log {
+        width: 105px;
+        height: 32px;
+        background-color: $back;
+        font-size: 14px;
       }
-
+    }
   }
 
   .one {
-    height: 709px;
-    background-image: url("/Assets/Images/one/BOX-tablet.png");
-    background-position: bottom right;
+    height: 521px;
+    background-image: url("/Assets/Images/one/new.png");
+    background-position: right -50px bottom -275px;
+    background-size: 1000px;
   }
 
   .looker {
+    width: 100%;
+    color: $letters;
+
     .look {
-      height: 318px;
       width: 511px;
-      padding-top: 105px;
+      height: 318px;
       margin-left: 111px;
+      padding-top: 108px;
+
+      .title {
+        height: 224px;
+        font-size: 48px;
+        line-height: 56px;
+        font-family: "DM Serif Text";
+        margin-bottom: 19px;
+      }
+
+      .upbox {
+        width: 453px;
+        height: 96px;
+        font-family: "DM Sans";
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+
+      .sig {
+        width: 183px;
+        height: 61px;
+        background-color: $back;
+        border-color: $border;
+        border-width: 5px;
+        border-style: solid;
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 12%;
+      }
     }
   }
 }
