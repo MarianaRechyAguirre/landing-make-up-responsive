@@ -68,6 +68,7 @@ body {
 
 .two .pick {
   margin-top: 100px;
+  margin-bottom: 85px;
 }
 .two .pick .title {
   margin-bottom: 47px;
@@ -77,15 +78,21 @@ body {
   line-height: 56px;
   font-family: "DM serif Text";
 }
+.two .pick .plan {
+  margin-top: 15px;
+  font-size: 14px;
+  letter-spacing: 12%;
+}
 .two .pick .pays {
   height: 396px;
 }
 .two .pick .pays .pay-card {
   border-style: solid;
-  border-color: #C4C4C4;
+  border-color: #c4c4c4;
   width: 348.33px;
   height: 188.39px;
   margin-bottom: 19px;
+  background-image: url("/Assets/Images/two/lines-blue.png");
 }
 .two .pick .pays .pay-card .mon {
   font-size: 30px;
@@ -102,7 +109,74 @@ body {
   width: 179px;
   height: 40px;
   background-color: #ef8094;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.two .pick .pays .pay-card-pink {
+  border-style: solid;
+  border-color: #c4c4c4;
+  width: 348.33px;
+  height: 188.39px;
+  margin-bottom: 19px;
+  background-image: url("/Assets/Images/two/lines-pink.png");
+}
+.two .pick .pays .pay-card-pink .mon {
+  font-size: 30px;
+  font-family: "DM serif Text";
+  padding-top: 27.25px;
+}
+.two .pick .pays .pay-card-pink .price {
+  letter-spacing: 12%;
+  font-size: 30px;
+  font-family: "DM Sans";
+  margin-bottom: 5px;
+}
+.two .pick .pays .pay-card-pink .btn {
+  width: 179px;
+  height: 40px;
+  background-color: #ef8094;
+  color: #ffffff;
+}
+
+.three .title {
+  margin-bottom: 47px;
+}
+.three .title span {
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "DM serif Text";
+}
+.three .set-card {
+  width: 350px;
+  height: 629.92px;
+}
+.three .set-card .card-img {
+  width: 350px;
+  height: 413px;
+  margin-bottom: 36px;
+  background-image: url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art1.png);
+  background-repeat: no-repeat;
+  background-size: 310px, 200px;
+  background-position: right 20px bottom, left top;
+}
+.three .set-card .card-img img {
+  margin-top: 55px;
+  margin-left: 45px;
+}
+.three .set-card .subtitle-container {
+  margin-left: 50px;
+}
+.three .set-card .subtitle-container .subtitle {
+  width: 306px;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1%;
+  font-family: "DM Serif Text";
+  margin-bottom: 15px;
+}
+.three .set-card .subtitle-container .once {
+  font-size: 18px;
+  letter-spacing: 1%;
+  line-height: 23.44px;
 }
 
 @media only screen and (min-width: 550px) {
@@ -139,6 +213,115 @@ body {
     background-image: url("/Assets/Images/one/BOX-tablet.png");
     background-position: right bottom -200px;
     background-size: 700px;
+  }
+  .three .title {
+    margin-bottom: 47px;
+  }
+  .three .title span {
+    font-size: 48px;
+    line-height: 56px;
+    font-family: "DM serif Text";
+  }
+  .three .set-card {
+    width: 100%;
+    height: 315.42px;
+  }
+  .three .set-card .card-img {
+    width: 327px;
+    height: 332px;
+    margin-bottom: 36px;
+    background-image: url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art2.png);
+    background-repeat: no-repeat;
+    background-size: 270px, 200px;
+    background-position: right bottom, left top;
+  }
+  .three .set-card .card-img img {
+    margin-top: 55px;
+    margin-left: 45px;
+  }
+  .three .set-card .subtitle-container {
+    margin-left: 50px;
+    width: 317px;
+    height: 172px;
+  }
+  .three .set-card .subtitle-container .subtitle {
+    width: 306px;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1%;
+    font-family: "DM Serif Text";
+    margin-bottom: 15px;
+  }
+  .three .set-card .subtitle-container .once {
+    font-size: 18px;
+    letter-spacing: 1%;
+    line-height: 23.44px;
+  }
+  .two .pick {
+    margin-top: 100px;
+    margin-bottom: 87px;
+  }
+  .two .pick .plan {
+    margin-top: 22.42px;
+    font-size: 14px;
+    letter-spacing: 12%;
+  }
+  .two .pick .pays {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 675px;
+  }
+  .two .pick .pays .pay-card {
+    border-style: solid;
+    border-color: #c4c4c4;
+    width: 305.61px;
+    height: 154.67px;
+    margin-bottom: 19px;
+    background-image: url("/Assets/Images/two/lines-blue.png");
+  }
+  .two .pick .pays .pay-card .mon {
+    font-size: 20px;
+    font-family: "DM serif Text";
+    padding-top: 27.25px;
+  }
+  .two .pick .pays .pay-card .price {
+    letter-spacing: 12%;
+    font-size: 24px;
+    font-family: "DM Sans";
+    margin-bottom: 5px;
+  }
+  .two .pick .pays .pay-card .btn {
+    width: 106.3px;
+    height: 32.42px;
+    background-color: #ef8094;
+    color: #ffffff;
+    font-size: 8px;
+  }
+  .two .pick .pays .pay-card-pink {
+    border-style: solid;
+    border-color: #c4c4c4;
+    width: 305.61px;
+    height: 154.67px;
+    margin-bottom: 19px;
+    background-image: url("/Assets/Images/two/lines-pink.png");
+  }
+  .two .pick .pays .pay-card-pink .mon {
+    font-size: 20px;
+    font-family: "DM serif Text";
+    padding-top: 27.25px;
+  }
+  .two .pick .pays .pay-card-pink .price {
+    letter-spacing: 12%;
+    font-size: 24px;
+    font-family: "DM Sans";
+    margin-bottom: 5px;
+  }
+  .two .pick .pays .pay-card-pink .btn {
+    width: 106.3px;
+    height: 32.42px;
+    background-color: #ef8094;
+    color: #ffffff;
+    font-size: 8px;
   }
   .looker {
     width: 100%;
@@ -209,9 +392,80 @@ body {
   }
   .one {
     height: 521px;
-    background-image: url("/Assets/Images/one/new.png");
-    background-position: right -50px bottom -275px;
-    background-size: 1000px;
+    background-image: url("/Assets/Images/one/new.png"), url("/Assets/Images/two/Marker.png");
+    background-position: right -50px bottom -275px, right 50px bottom 100px;
+    background-size: 1000px, 280px;
+  }
+  .two .pick {
+    margin-top: 100px;
+    margin-bottom: 90px;
+  }
+  .two .pick .plan {
+    margin-top: 22.42px;
+    font-size: 14px;
+    letter-spacing: 12%;
+  }
+  .two .pick .pays {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 1270px;
+  }
+  .two .pick .pays .pay-card {
+    border-style: solid;
+    border-color: #c4c4c4;
+    width: 575px;
+    height: 291px;
+    margin-bottom: 19px;
+    margin-right: 20px;
+    background-image: url("/Assets/Images/two/line-big-blue.png");
+  }
+  .two .pick .pays .pay-card .mon {
+    font-size: 36px;
+    font-family: "DM serif Text";
+    padding-top: 27.25px;
+  }
+  .two .pick .pays .pay-card .price {
+    letter-spacing: 12%;
+    font-size: 44px;
+    font-family: "DM Sans";
+    margin-bottom: 5px;
+  }
+  .two .pick .pays .pay-card .btn {
+    width: 200px;
+    height: 61px;
+    background-color: #ef8094;
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .two .pick .pays .pay-card-pink {
+    border-style: solid;
+    border-color: #c4c4c4;
+    width: 575px;
+    height: 291px;
+    margin-bottom: 19px;
+    background-image: url("/Assets/Images/two/line-big-pink.png");
+  }
+  .two .pick .pays .pay-card-pink .mon {
+    font-size: 36px;
+    font-family: "DM serif Text";
+    padding-top: 27.25px;
+  }
+  .two .pick .pays .pay-card-pink .price {
+    letter-spacing: 12%;
+    font-size: 44px;
+    font-family: "DM Sans";
+    margin-bottom: 5px;
+  }
+  .two .pick .pays .pay-card-pink .btn {
+    width: 200px;
+    height: 61px;
+    background-color: #ef8094;
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 700;
+    font-size: 16px;
   }
   .looker {
     width: 100%;

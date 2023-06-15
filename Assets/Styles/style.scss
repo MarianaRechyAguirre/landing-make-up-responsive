@@ -2,8 +2,8 @@
 $back: #f5f8ff;
 $border: #ef8094;
 $letters: #000000;
-$border-card:#C4C4C4;
-$white:#FFFFFF;
+$border-card: #c4c4c4;
+$white: #ffffff;
 
 //fonts
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Fira+Sans:ital@1&family=Montserrat:wght@100&display=swap");
@@ -83,9 +83,10 @@ body {
 .two {
   .pick {
     margin-top: 100px;
+    margin-bottom: 85px;
 
     .title {
-        margin-bottom: 47px;
+      margin-bottom: 47px;
       span {
         font-size: 48px;
         line-height: 56px;
@@ -93,35 +94,124 @@ body {
       }
     }
 
-    .pays{
-        height: 396px;
-        .pay-card{
-            border-style: solid;
-            border-color: $border-card;
-            width: 348.33px;
-            height: 188.39px;
-            margin-bottom: 19px;
+    .plan {
+      margin-top: 15px;
+      font-size: 14px;
+      letter-spacing: 12%;
+    }
 
-            .mon{
-                font-size: 30px;
-                font-family: "DM serif Text";
-                padding-top: 27.25px;
-            }
+    .pays {
+      height: 396px;
+      .pay-card {
+        border-style: solid;
+        border-color: $border-card;
+        width: 348.33px;
+        height: 188.39px;
+        margin-bottom: 19px;
 
-            .price{
-                letter-spacing: 12%;
-                font-size: 30px;
-                font-family: "DM Sans";
-                margin-bottom: 5px;
-            }
+        background-image: url("/Assets/Images/two/lines-blue.png");
 
-            .btn{
-               width: 179px;
-               height: 40px;
-               background-color:$border; 
-               color:$white;
-            }
+        .mon {
+          font-size: 30px;
+          font-family: "DM serif Text";
+          padding-top: 27.25px;
         }
+
+        .price {
+          letter-spacing: 12%;
+          font-size: 30px;
+          font-family: "DM Sans";
+          margin-bottom: 5px;
+        }
+
+        .btn {
+          width: 179px;
+          height: 40px;
+          background-color: $border;
+          color: $white;
+        }
+      }
+
+      .pay-card-pink {
+        border-style: solid;
+        border-color: $border-card;
+        width: 348.33px;
+        height: 188.39px;
+        margin-bottom: 19px;
+
+        background-image: url("/Assets/Images/two/lines-pink.png");
+
+        .mon {
+          font-size: 30px;
+          font-family: "DM serif Text";
+          padding-top: 27.25px;
+        }
+
+        .price {
+          letter-spacing: 12%;
+          font-size: 30px;
+          font-family: "DM Sans";
+          margin-bottom: 5px;
+        }
+
+        .btn {
+          width: 179px;
+          height: 40px;
+          background-color: $border;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.three {
+  .title {
+    margin-bottom: 47px;
+    span {
+      font-size: 48px;
+      line-height: 56px;
+      font-family: "DM serif Text";
+    }
+  }
+
+  .set-card {
+    width: 350px;
+    height: 629.92px;
+
+    .card-img {
+      width: 350px;
+      height: 413px;
+      margin-bottom: 36px;
+
+      background-image:url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art1.png);
+      background-repeat: no-repeat;
+      background-size: 310px, 200px;
+      background-position: right 20px bottom, left top;
+
+      img{
+        margin-top: 55px;
+        margin-left: 45px;
+      }
+    }
+
+    .subtitle-container {
+        margin-left: 50px;
+
+      .subtitle {
+        width: 306px;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -1%;
+        font-family: "DM Serif Text";
+        margin-bottom: 15px;
+      }
+
+      .once {
+        font-size: 18px;
+        letter-spacing: 1%;
+        line-height: 23.44px;
+      }
     }
   }
 }
@@ -166,6 +256,144 @@ body {
     background-position: right bottom -200px;
     background-size: 700px;
   }
+
+
+
+.three {
+    .title {
+      margin-bottom: 47px;
+      span {
+        font-size: 48px;
+        line-height: 56px;
+        font-family: "DM serif Text";
+      }
+    }
+  
+    .set-card {
+      width: 100%;
+      height: 315.42px;
+  
+      .card-img {
+        width: 327px;
+        height: 332px;
+        margin-bottom: 36px;
+  
+        background-image:url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art2.png);
+        background-repeat: no-repeat;
+        background-size: 270px, 200px;
+        background-position: right  bottom, left top;
+  
+        img{
+          margin-top: 55px;
+          margin-left: 45px;
+        }
+      }
+  
+      .subtitle-container {
+          margin-left: 50px;
+          width: 317px;
+          height: 172px;
+  
+        .subtitle {
+          width: 306px;
+          font-size: 36px;
+          line-height: 44px;
+          letter-spacing: -1%;
+          font-family: "DM Serif Text";
+          margin-bottom: 15px;
+        }
+  
+        .once {
+          font-size: 18px;
+          letter-spacing: 1%;
+          line-height: 23.44px;
+        }
+      }
+    }
+  }
+
+
+  .two {
+    .pick {
+      margin-top: 100px;
+      margin-bottom: 87px;
+
+      .plan {
+        margin-top: 22.42px;
+        font-size: 14px;
+        letter-spacing: 12%;
+      }
+
+      .pays {
+        height: fit-content;
+        width: 675px;
+        .pay-card {
+          border-style: solid;
+          border-color: $border-card;
+          width: 305.61px;
+          height: 154.67px;
+          margin-bottom: 19px;
+
+          background-image: url("/Assets/Images/two/lines-blue.png");
+
+          .mon {
+            font-size: 20px;
+            font-family: "DM serif Text";
+            padding-top: 27.25px;
+          }
+
+          .price {
+            letter-spacing: 12%;
+            font-size: 24px;
+            font-family: "DM Sans";
+            margin-bottom: 5px;
+          }
+
+          .btn {
+            width: 106.3px;
+            height: 32.42px;
+            background-color: $border;
+            color: $white;
+            font-size: 8px;
+          }
+        }
+
+        .pay-card-pink {
+          border-style: solid;
+          border-color: $border-card;
+          width: 305.61px;
+          height: 154.67px;
+          margin-bottom: 19px;
+
+          background-image: url("/Assets/Images/two/lines-pink.png");
+
+          .mon {
+            font-size: 20px;
+            font-family: "DM serif Text";
+            padding-top: 27.25px;
+          }
+
+          .price {
+            letter-spacing: 12%;
+            font-size: 24px;
+            font-family: "DM Sans";
+            margin-bottom: 5px;
+          }
+
+          .btn {
+            width: 106.3px;
+            height: 32.42px;
+            background-color: $border;
+            color: $white;
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+
+
+  
 
   .looker {
     width: 100%;
@@ -247,9 +475,94 @@ body {
 
   .one {
     height: 521px;
-    background-image: url("/Assets/Images/one/new.png");
-    background-position: right -50px bottom -275px;
-    background-size: 1000px;
+    background-image: url("/Assets/Images/one/new.png"),
+      url("/Assets/Images/two/Marker.png");
+    background-position: right -50px bottom -275px, right 50px bottom 100px;
+    background-size: 1000px, 280px;
+  }
+
+  .two {
+    .pick {
+      margin-top: 100px;
+      margin-bottom: 90px;
+
+      .plan {
+        margin-top: 22.42px;
+        font-size: 14px;
+        letter-spacing: 12%;
+      }
+
+      .pays {
+        height: fit-content;
+        width: 1270px;
+        .pay-card {
+          border-style: solid;
+          border-color: $border-card;
+          width: 575px;
+          height: 291px;
+          margin-bottom: 19px;
+          margin-right: 20px;
+
+          background-image: url("/Assets/Images/two/line-big-blue.png");
+
+          .mon {
+            font-size: 36px;
+            font-family: "DM serif Text";
+            padding-top: 27.25px;
+          }
+
+          .price {
+            letter-spacing: 12%;
+            font-size: 44px;
+            font-family: "DM Sans";
+            margin-bottom: 5px;
+          }
+
+          .btn {
+            width: 200px;
+            height: 61px;
+            background-color: $border;
+            color: $white;
+            font-size: 8px;
+            font-weight: 700;
+            font-size: 16px;
+          }
+        }
+
+        .pay-card-pink {
+          border-style: solid;
+          border-color: $border-card;
+          width: 575px;
+          height: 291px;
+          margin-bottom: 19px;
+
+          background-image: url("/Assets/Images/two/line-big-pink.png");
+
+          .mon {
+            font-size: 36px;
+            font-family: "DM serif Text";
+            padding-top: 27.25px;
+          }
+
+          .price {
+            letter-spacing: 12%;
+            font-size: 44px;
+            font-family: "DM Sans";
+            margin-bottom: 5px;
+          }
+
+          .btn {
+            width: 200px;
+            height: 61px;
+            background-color: $border;
+            color: $white;
+            font-size: 8px;
+            font-weight: 700;
+            font-size: 16px;
+          }
+        }
+      }
+    }
   }
 
   .looker {
