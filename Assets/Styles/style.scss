@@ -178,25 +178,27 @@ body {
   .set-card {
     width: 350px;
     height: 629.92px;
+    margin-bottom: 15px;
 
     .card-img {
       width: 350px;
       height: 413px;
       margin-bottom: 36px;
 
-      background-image:url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art1.png);
+      background-image: url(/Assets/Images/three/Mask\ Group.png),
+        url(/Assets/Images/three/art1.png);
       background-repeat: no-repeat;
       background-size: 310px, 200px;
       background-position: right 20px bottom, left top;
 
-      img{
+      img {
         margin-top: 55px;
         margin-left: 45px;
       }
     }
 
     .subtitle-container {
-        margin-left: 50px;
+      margin-left: 30px;
 
       .subtitle {
         width: 306px;
@@ -211,6 +213,44 @@ body {
         font-size: 18px;
         letter-spacing: 1%;
         line-height: 23.44px;
+      }
+    }
+  }
+}
+
+.four {
+  margin-top: 5px;
+
+  .card-container {
+    width: 372px;
+    height: 747px;
+
+    background-image: url(/Assets/Images/four/grapefruit.png),
+      url(/Assets/Images/four/art2.png), url(/Assets/Images/four/2.png);
+    background-repeat: no-repeat;
+    background-size: 300px, 150px, 80px;
+    background-position: bottom 325px left 26px, bottom 350px left,
+      top 55px left 38px;
+
+    .text-container {
+      margin-left: 30px;
+      margin-top: 440px;
+
+      .subtitle {
+        width: 306px;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -1%;
+        font-family: "DM Serif Text";
+        margin-bottom: 15px;
+      }
+
+      .once {
+        width: 294px;
+        font-size: 18px;
+        letter-spacing: 1%;
+        line-height: 23.44px;
+        text-align: justify;
       }
     }
   }
@@ -257,9 +297,7 @@ body {
     background-size: 700px;
   }
 
-
-
-.three {
+  .three {
     .title {
       margin-bottom: 47px;
       span {
@@ -268,50 +306,49 @@ body {
         font-family: "DM serif Text";
       }
     }
-  
+
     .set-card {
       width: 100%;
       height: 315.42px;
-  
+
       .card-img {
         width: 327px;
         height: 332px;
         margin-bottom: 36px;
-  
-        background-image:url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art2.png);
+
+        background-image: url(/Assets/Images/three/Mask\ Group.png),
+          url(/Assets/Images/three/art2.png);
         background-repeat: no-repeat;
         background-size: 270px, 200px;
-        background-position: right  bottom, left top;
-  
-        img{
+        background-position: right bottom, left top;
+
+        img {
           margin-top: 55px;
           margin-left: 45px;
         }
       }
-  
+
       .subtitle-container {
-          margin-left: 50px;
-          width: 317px;
-          height: 172px;
-  
+        margin-left: 50px;
+        width: 310px;
+        height: 172px;
+
         .subtitle {
           width: 306px;
-          font-size: 36px;
-          line-height: 44px;
-          letter-spacing: -1%;
+          font-size: 32px;
+          line-height: 36px;
           font-family: "DM Serif Text";
           margin-bottom: 15px;
         }
-  
+
         .once {
-          font-size: 18px;
+          font-size: 14px;
           letter-spacing: 1%;
-          line-height: 23.44px;
+          line-height: 18.23px;
         }
       }
     }
   }
-
 
   .two {
     .pick {
@@ -392,9 +429,6 @@ body {
     }
   }
 
-
-  
-
   .looker {
     width: 100%;
     color: $letters;
@@ -436,173 +470,219 @@ body {
       }
     }
   }
-}
 
-//Desktop
-@media only screen and (min-width: 1000px) {
-  body {
-    background-image: url("/Assets/Images/header/band.png");
-    background-size: 2000px;
-  }
-
-  header {
-    height: 90px;
-    .logo {
-      width: 56px;
-      height: 56px;
+  //Desktop
+  @media only screen and (min-width: 1000px) {
+    body {
+      background-image: url("/Assets/Images/header/band.png");
+      background-size: 2000px;
     }
 
-    .nav-options {
+    header {
+      height: 90px;
+      .logo {
+        width: 56px;
+        height: 56px;
+      }
+
+      .nav-options {
+        width: 100%;
+        height: 37px;
+        margin-left: 265px;
+
+        li {
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 16%;
+          line-height: 18.23px;
+        }
+
+        .log {
+          width: 105px;
+          height: 32px;
+          background-color: $back;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .one {
+      height: 521px;
+      background-image: url("/Assets/Images/one/new.png"),
+        url("/Assets/Images/two/Marker.png");
+      background-position: right -50px bottom -275px, right 50px bottom 100px;
+      background-size: 1000px, 280px;
+    }
+
+    .two {
+      .pick {
+        margin-top: 100px;
+        margin-bottom: 90px;
+
+        .plan {
+          margin-top: 22.42px;
+          font-size: 14px;
+          letter-spacing: 12%;
+        }
+
+        .pays {
+          height: fit-content;
+          width: 1270px;
+          .pay-card {
+            border-style: solid;
+            border-color: $border-card;
+            width: 575px;
+            height: 291px;
+            margin-bottom: 19px;
+            margin-right: 20px;
+
+            background-image: url("/Assets/Images/two/line-big-blue.png");
+
+            .mon {
+              font-size: 36px;
+              font-family: "DM serif Text";
+              padding-top: 27.25px;
+            }
+
+            .price {
+              letter-spacing: 12%;
+              font-size: 44px;
+              font-family: "DM Sans";
+              margin-bottom: 5px;
+            }
+
+            .btn {
+              width: 200px;
+              height: 61px;
+              background-color: $border;
+              color: $white;
+              font-size: 8px;
+              font-weight: 700;
+              font-size: 16px;
+            }
+          }
+
+          .pay-card-pink {
+            border-style: solid;
+            border-color: $border-card;
+            width: 575px;
+            height: 291px;
+            margin-bottom: 19px;
+
+            background-image: url("/Assets/Images/two/line-big-pink.png");
+
+            .mon {
+              font-size: 36px;
+              font-family: "DM serif Text";
+              padding-top: 27.25px;
+            }
+
+            .price {
+              letter-spacing: 12%;
+              font-size: 44px;
+              font-family: "DM Sans";
+              margin-bottom: 5px;
+            }
+
+            .btn {
+              width: 200px;
+              height: 61px;
+              background-color: $border;
+              color: $white;
+              font-size: 8px;
+              font-weight: 700;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    .three {
+      .set-card {
+        width: 965px;
+        height: 405px;
+        margin-left: 207px;
+
+        .card-img {
+          width: 417px;
+          height: 417px;
+          margin-bottom: 36px;
+
+          background-image: url(/Assets/Images/three/Mask\ Group.png),
+            url(/Assets/Images/three/art2.png);
+          background-repeat: no-repeat;
+          background-size: 330px, 290px;
+          background-position: right bottom, left top;
+
+          img {
+            margin-top: 55px;
+            margin-left: 100px;
+          }
+        }
+
+        .subtitle-container {
+          margin-left: 50px;
+          width: 385px;
+          height: 172px;
+          margin-top: 65px;
+
+          .subtitle {
+            width: 306px;
+            font-size: 36px;
+            line-height: 36px;
+            font-family: "DM Serif Text";
+            margin-bottom: 15px;
+          }
+
+          .once {
+            font-size: 18px;
+            letter-spacing: 1%;
+            line-height: 18.23px;
+          }
+        }
+      }
+    }
+
+    .looker {
       width: 100%;
-      height: 37px;
-      margin-left: 265px;
+      color: $letters;
 
-      li {
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 16%;
-        line-height: 18.23px;
-      }
+      .look {
+        width: 511px;
+        height: 318px;
+        margin-left: 111px;
+        padding-top: 108px;
 
-      .log {
-        width: 105px;
-        height: 32px;
-        background-color: $back;
-        font-size: 14px;
-      }
-    }
-  }
-
-  .one {
-    height: 521px;
-    background-image: url("/Assets/Images/one/new.png"),
-      url("/Assets/Images/two/Marker.png");
-    background-position: right -50px bottom -275px, right 50px bottom 100px;
-    background-size: 1000px, 280px;
-  }
-
-  .two {
-    .pick {
-      margin-top: 100px;
-      margin-bottom: 90px;
-
-      .plan {
-        margin-top: 22.42px;
-        font-size: 14px;
-        letter-spacing: 12%;
-      }
-
-      .pays {
-        height: fit-content;
-        width: 1270px;
-        .pay-card {
-          border-style: solid;
-          border-color: $border-card;
-          width: 575px;
-          height: 291px;
+        .title {
+          height: 224px;
+          font-size: 48px;
+          line-height: 56px;
+          font-family: "DM Serif Text";
           margin-bottom: 19px;
-          margin-right: 20px;
-
-          background-image: url("/Assets/Images/two/line-big-blue.png");
-
-          .mon {
-            font-size: 36px;
-            font-family: "DM serif Text";
-            padding-top: 27.25px;
-          }
-
-          .price {
-            letter-spacing: 12%;
-            font-size: 44px;
-            font-family: "DM Sans";
-            margin-bottom: 5px;
-          }
-
-          .btn {
-            width: 200px;
-            height: 61px;
-            background-color: $border;
-            color: $white;
-            font-size: 8px;
-            font-weight: 700;
-            font-size: 16px;
-          }
         }
 
-        .pay-card-pink {
-          border-style: solid;
-          border-color: $border-card;
-          width: 575px;
-          height: 291px;
-          margin-bottom: 19px;
-
-          background-image: url("/Assets/Images/two/line-big-pink.png");
-
-          .mon {
-            font-size: 36px;
-            font-family: "DM serif Text";
-            padding-top: 27.25px;
-          }
-
-          .price {
-            letter-spacing: 12%;
-            font-size: 44px;
-            font-family: "DM Sans";
-            margin-bottom: 5px;
-          }
-
-          .btn {
-            width: 200px;
-            height: 61px;
-            background-color: $border;
-            color: $white;
-            font-size: 8px;
-            font-weight: 700;
-            font-size: 16px;
-          }
+        .upbox {
+          width: 453px;
+          height: 96px;
+          font-family: "DM Sans";
+          font-size: 18px;
+          margin-bottom: 30px;
+          text-align: justify;
         }
-      }
-    }
-  }
 
-  .looker {
-    width: 100%;
-    color: $letters;
-
-    .look {
-      width: 511px;
-      height: 318px;
-      margin-left: 111px;
-      padding-top: 108px;
-
-      .title {
-        height: 224px;
-        font-size: 48px;
-        line-height: 56px;
-        font-family: "DM Serif Text";
-        margin-bottom: 19px;
-      }
-
-      .upbox {
-        width: 453px;
-        height: 96px;
-        font-family: "DM Sans";
-        font-size: 18px;
-        margin-bottom: 30px;
-        text-align: justify;
-      }
-
-      .sig {
-        width: 183px;
-        height: 61px;
-        background-color: $back;
-        border-color: $border;
-        border-width: 5px;
-        border-style: solid;
-        font-family: "DM Sans";
-        font-weight: 700;
-        font-size: 16px;
-        letter-spacing: 12%;
+        .sig {
+          width: 183px;
+          height: 61px;
+          background-color: $back;
+          border-color: $border;
+          border-width: 5px;
+          border-style: solid;
+          font-family: "DM Sans";
+          font-weight: 700;
+          font-size: 16px;
+          letter-spacing: 12%;
+        }
       }
     }
   }

@@ -148,6 +148,7 @@ body {
 .three .set-card {
   width: 350px;
   height: 629.92px;
+  margin-bottom: 15px;
 }
 .three .set-card .card-img {
   width: 350px;
@@ -163,7 +164,7 @@ body {
   margin-left: 45px;
 }
 .three .set-card .subtitle-container {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .three .set-card .subtitle-container .subtitle {
   width: 306px;
@@ -177,6 +178,37 @@ body {
   font-size: 18px;
   letter-spacing: 1%;
   line-height: 23.44px;
+}
+
+.four {
+  margin-top: 5px;
+}
+.four .card-container {
+  width: 372px;
+  height: 747px;
+  background-image: url(/Assets/Images/four/grapefruit.png), url(/Assets/Images/four/art2.png), url(/Assets/Images/four/2.png);
+  background-repeat: no-repeat;
+  background-size: 300px, 150px, 80px;
+  background-position: bottom 325px left 26px, bottom 350px left, top 55px left 38px;
+}
+.four .card-container .text-container {
+  margin-left: 30px;
+  margin-top: 440px;
+}
+.four .card-container .text-container .subtitle {
+  width: 306px;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1%;
+  font-family: "DM Serif Text";
+  margin-bottom: 15px;
+}
+.four .card-container .text-container .once {
+  width: 294px;
+  font-size: 18px;
+  letter-spacing: 1%;
+  line-height: 23.44px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 550px) {
@@ -241,21 +273,20 @@ body {
   }
   .three .set-card .subtitle-container {
     margin-left: 50px;
-    width: 317px;
+    width: 310px;
     height: 172px;
   }
   .three .set-card .subtitle-container .subtitle {
     width: 306px;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -1%;
+    font-size: 32px;
+    line-height: 36px;
     font-family: "DM Serif Text";
     margin-bottom: 15px;
   }
   .three .set-card .subtitle-container .once {
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1%;
-    line-height: 23.44px;
+    line-height: 18.23px;
   }
   .two .pick {
     margin-top: 100px;
@@ -361,7 +392,7 @@ body {
     letter-spacing: 12%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 550px) and (min-width: 1000px) {
   body {
     background-image: url("/Assets/Images/header/band.png");
     background-size: 2000px;
@@ -466,6 +497,42 @@ body {
     font-size: 8px;
     font-weight: 700;
     font-size: 16px;
+  }
+  .three .set-card {
+    width: 965px;
+    height: 405px;
+    margin-left: 207px;
+  }
+  .three .set-card .card-img {
+    width: 417px;
+    height: 417px;
+    margin-bottom: 36px;
+    background-image: url(/Assets/Images/three/Mask\ Group.png), url(/Assets/Images/three/art2.png);
+    background-repeat: no-repeat;
+    background-size: 330px, 290px;
+    background-position: right bottom, left top;
+  }
+  .three .set-card .card-img img {
+    margin-top: 55px;
+    margin-left: 100px;
+  }
+  .three .set-card .subtitle-container {
+    margin-left: 50px;
+    width: 385px;
+    height: 172px;
+    margin-top: 65px;
+  }
+  .three .set-card .subtitle-container .subtitle {
+    width: 306px;
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "DM Serif Text";
+    margin-bottom: 15px;
+  }
+  .three .set-card .subtitle-container .once {
+    font-size: 18px;
+    letter-spacing: 1%;
+    line-height: 18.23px;
   }
   .looker {
     width: 100%;
