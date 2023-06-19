@@ -429,6 +429,48 @@ body {
     }
   }
 
+  .four {
+    margin-top: 5px;
+    background-image: url(/Assets/Images/four/vector.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    .card-container {
+      width: 442px;
+      height: 493px;
+
+      background-image: url(/Assets/Images/four/2.png),
+        url(/Assets/Images/four/art2.png),
+        url(/Assets/Images/four/grapefruit.png);
+      background-repeat: no-repeat;
+      background-size: 100px, 150px, 330px;
+      background-position: bottom 145px left 20px, top 50px left,
+        top 10px left 95px;
+
+      .text-container {
+        margin-left: 120px;
+        margin-top: 330px;
+
+        .subtitle {
+          width: 306px;
+          font-size: 32px;
+          line-height: 36px;
+          letter-spacing: -1%;
+          font-family: "DM Serif Text";
+          margin-bottom: 15px;
+        }
+
+        .once {
+          width: 294px;
+          font-size: 14px;
+          letter-spacing: 1%;
+          line-height: 18.23px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
   .looker {
     width: 100%;
     color: $letters;
@@ -639,6 +681,47 @@ body {
             font-size: 18px;
             letter-spacing: 1%;
             line-height: 18.23px;
+          }
+        }
+      }
+    }
+
+    .four {
+      margin-top: 5px;
+      background-image: url(/Assets/Images/four/vector-lg.png);
+      background-repeat: no-repeat;
+      background-position: top right 273px;
+
+      .card-container {
+        width: 610px;
+        height: 583px;
+        margin-right: 273px;
+
+        background-image: url(/Assets/Images/four/2.png),
+          url(/Assets/Images/four/box.png), url(/Assets/Images/four/art2.png);
+        background-repeat: no-repeat;
+        background-size: 110px, 1000px, 150px;
+        background-position: bottom 145px left 120px, top -180px left -50px, top 130px left 138px;
+
+        .text-container {
+          margin-left: 280px;
+          margin-top: 380px;
+
+          .subtitle {
+            width: 306px;
+            font-size: 36px;
+            line-height: 44px;
+            letter-spacing: -1%;
+            font-family: "DM Serif Text";
+            margin-bottom: 15px;
+          }
+
+          .once {
+            width: 409px;
+            font-size: 18px;
+            letter-spacing: 1%;
+            line-height: 23.44px;
+            text-align: justify;
           }
         }
       }
