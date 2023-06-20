@@ -256,6 +256,69 @@ body {
   }
 }
 
+.five {
+  .try {
+    width: 376px;
+    height: 199px;
+    
+    .btn {
+      width: 284px;
+      height: 61px;
+      background-color: white;
+      color: $letters;
+      font-weight: 700;
+      border-width: 5px;
+      border-color: $border;
+    }
+  }
+
+  .set-card {
+    width: 350px;
+    height: 629.92px;
+    margin-bottom: 15px;
+
+    .card-img {
+      width: 350px;
+      height: 400px;
+      margin-bottom: 36px;
+
+      background-image: url(/Assets/Images/five/picture.png),
+        url(/Assets/Images/five/art3.png);
+      background-repeat: no-repeat;
+      background-size: 310px, 150px;
+      background-position: left 20px bottom, right bottom;
+
+      .number {
+        height: 450px;
+      }
+
+      img {
+        margin-top: 55px;
+        margin-left: 20px;
+      }
+    }
+
+    .subtitle-container {
+      margin-left: 30px;
+
+      .subtitle {
+        width: 306px;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -1%;
+        font-family: "DM Serif Text";
+        margin-bottom: 15px;
+      }
+
+      .once {
+        font-size: 18px;
+        letter-spacing: 1%;
+        line-height: 23.44px;
+      }
+    }
+  }
+}
+
 // Tablet
 @media only screen and (min-width: 550px) {
   body {
@@ -513,6 +576,76 @@ body {
     }
   }
 
+  .five {
+    .try {
+      width: 376px;
+      height: 199px;
+      
+      .btn {
+        width: 284px;
+        height: 61px;
+        background-color: white;
+        color: $letters;
+        font-weight: 700;
+        border-width: 5px;
+        border-color: $border;
+      }
+    }
+  
+    .set-card {
+      width: 645px;
+      height: 348px;
+      margin-bottom: 15px;
+  
+      .card-img {
+        width: 307px;
+        height: 348px;
+        margin-bottom: 36px;
+  
+        background-image: url(/Assets/Images/five/picture.png),
+          url(/Assets/Images/five/art3.png);
+        background-repeat: no-repeat;
+        background-size: 310px, 150px;
+        background-position: left 20px bottom, right bottom;
+  
+        .number {
+          height: 450px;
+        }
+  
+        img {
+          margin-top: 55px;
+          margin-left: 20px;
+        }
+      }
+  
+      .subtitle-container {
+        margin-left: 30px;
+  
+        .subtitle {
+          width: 306px;
+          font-size: 36px;
+          line-height: 44px;
+          letter-spacing: -1%;
+          font-family: "DM Serif Text";
+          margin-bottom: 15px;
+        }
+  
+        .once {
+          font-size: 18px;
+          letter-spacing: 1%;
+          line-height: 23.44px;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
   //Desktop
   @media only screen and (min-width: 1000px) {
     body {
@@ -701,7 +834,8 @@ body {
           url(/Assets/Images/four/box.png), url(/Assets/Images/four/art2.png);
         background-repeat: no-repeat;
         background-size: 110px, 1000px, 150px;
-        background-position: bottom 145px left 120px, top -180px left -50px, top 130px left 138px;
+        background-position: bottom 145px left 120px, top -180px left -50px,
+          top 130px left 138px;
 
         .text-container {
           margin-left: 280px;

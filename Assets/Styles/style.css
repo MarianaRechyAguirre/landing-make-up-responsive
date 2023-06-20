@@ -211,6 +211,57 @@ body {
   text-align: justify;
 }
 
+.five .try {
+  width: 376px;
+  height: 199px;
+}
+.five .try .btn {
+  width: 284px;
+  height: 61px;
+  background-color: white;
+  color: #000000;
+  font-weight: 700;
+  border-width: 5px;
+  border-color: #ef8094;
+}
+.five .set-card {
+  width: 350px;
+  height: 629.92px;
+  margin-bottom: 15px;
+}
+.five .set-card .card-img {
+  width: 350px;
+  height: 400px;
+  margin-bottom: 36px;
+  background-image: url(/Assets/Images/five/picture.png), url(/Assets/Images/five/art3.png);
+  background-repeat: no-repeat;
+  background-size: 310px, 150px;
+  background-position: left 20px bottom, right bottom;
+}
+.five .set-card .card-img .number {
+  height: 450px;
+}
+.five .set-card .card-img img {
+  margin-top: 55px;
+  margin-left: 20px;
+}
+.five .set-card .subtitle-container {
+  margin-left: 30px;
+}
+.five .set-card .subtitle-container .subtitle {
+  width: 306px;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1%;
+  font-family: "DM Serif Text";
+  margin-bottom: 15px;
+}
+.five .set-card .subtitle-container .once {
+  font-size: 18px;
+  letter-spacing: 1%;
+  line-height: 23.44px;
+}
+
 @media only screen and (min-width: 550px) {
   body {
     background-image: url("/Assets/Images/header/band.png");
@@ -423,6 +474,56 @@ body {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 12%;
+  }
+  .five .try {
+    width: 376px;
+    height: 199px;
+  }
+  .five .try .btn {
+    width: 284px;
+    height: 61px;
+    background-color: white;
+    color: #000000;
+    font-weight: 700;
+    border-width: 5px;
+    border-color: #ef8094;
+  }
+  .five .set-card {
+    width: 645px;
+    height: 348px;
+    margin-bottom: 15px;
+  }
+  .five .set-card .card-img {
+    width: 307px;
+    height: 348px;
+    margin-bottom: 36px;
+    background-image: url(/Assets/Images/five/picture.png), url(/Assets/Images/five/art3.png);
+    background-repeat: no-repeat;
+    background-size: 310px, 150px;
+    background-position: left 20px bottom, right bottom;
+  }
+  .five .set-card .card-img .number {
+    height: 450px;
+  }
+  .five .set-card .card-img img {
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+  .five .set-card .subtitle-container {
+    margin-left: 30px;
+  }
+  .five .set-card .subtitle-container .subtitle {
+    width: 306px;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1%;
+    font-family: "DM Serif Text";
+    margin-bottom: 15px;
+  }
+  .five .set-card .subtitle-container .once {
+    font-size: 18px;
+    letter-spacing: 1%;
+    line-height: 23.44px;
   }
 }
 @media only screen and (min-width: 550px) and (min-width: 1000px) {
