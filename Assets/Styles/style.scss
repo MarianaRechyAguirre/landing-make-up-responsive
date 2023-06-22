@@ -256,22 +256,9 @@ body {
   }
 }
 
-.five {
-  .try {
-    width: 376px;
-    height: 199px;
-    
-    .btn {
-      width: 284px;
-      height: 61px;
-      background-color: white;
-      color: $letters;
-      font-weight: 700;
-      border-width: 5px;
-      border-color: $border;
-    }
-  }
 
+.five {
+height: 700px;
   .set-card {
     width: 350px;
     height: 629.92px;
@@ -317,6 +304,23 @@ body {
       }
     }
   }
+}
+
+
+.container{
+  width: 100%;
+  margin-top: 100px;
+.try {
+  .btn {
+    width: 284px;
+    height: 61px;
+    background-color: white;
+    color: $letters;
+    font-weight: 700;
+    border-width: 5px;
+    border-color: $border;
+  }
+}
 }
 
 // Tablet
@@ -577,25 +581,12 @@ body {
   }
 
   .five {
-    .try {
-      width: 376px;
-      height: 199px;
-      
-      .btn {
-        width: 284px;
-        height: 61px;
-        background-color: white;
-        color: $letters;
-        font-weight: 700;
-        border-width: 5px;
-        border-color: $border;
-      }
-    }
-  
+    height: 400px;
     .set-card {
       width: 645px;
       height: 348px;
       margin-bottom: 15px;
+      margin-left: 100px;
   
       .card-img {
         width: 307px;
@@ -605,11 +596,12 @@ body {
         background-image: url(/Assets/Images/five/picture.png),
           url(/Assets/Images/five/art3.png);
         background-repeat: no-repeat;
-        background-size: 310px, 150px;
+        background-size: 250px, 150px;
         background-position: left 20px bottom, right bottom;
   
         .number {
           height: 450px;
+          width: 500px;
         }
   
         img {
@@ -619,19 +611,19 @@ body {
       }
   
       .subtitle-container {
-        margin-left: 30px;
+        margin-top: 100px;
   
         .subtitle {
           width: 306px;
-          font-size: 36px;
-          line-height: 44px;
+          font-size: 32px;
+          line-height: 36px;
           letter-spacing: -1%;
           font-family: "DM Serif Text";
           margin-bottom: 15px;
         }
   
         .once {
-          font-size: 18px;
+          font-size: 14px;
           letter-spacing: 1%;
           line-height: 23.44px;
         }
@@ -904,3 +896,56 @@ body {
     }
   }
 }
+
+
+.five {
+  .set-card {
+    width: 645px;
+    height: 348px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+
+    .card-img {
+      width: 328px;
+      height: 415px;
+      margin-bottom: 36px;
+
+      background-image: url(/Assets/Images/five/picture.png),
+        url(/Assets/Images/five/art3.png);
+      background-repeat: no-repeat;
+      background-size: 310px, 150px;
+      background-position: left 20px bottom, right bottom;
+
+      .number {
+        height: 450px;
+        width: 600px;
+      }
+
+      img {
+        margin-top: 55px;
+        margin-left: 20px;
+      }
+    }
+
+    .subtitle-container {
+      margin-top: 100px;
+
+      .subtitle {
+        width: 306px;
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: -1%;
+        font-family: "DM Serif Text";
+        margin-bottom: 15px;
+      }
+
+      .once {
+        width: 445px;
+        font-size: 18px;
+        letter-spacing: 1%;
+        line-height: 23.44px;
+      }
+    }
+  }
+}
+

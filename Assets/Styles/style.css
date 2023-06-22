@@ -211,18 +211,8 @@ body {
   text-align: justify;
 }
 
-.five .try {
-  width: 376px;
-  height: 199px;
-}
-.five .try .btn {
-  width: 284px;
-  height: 61px;
-  background-color: white;
-  color: #000000;
-  font-weight: 700;
-  border-width: 5px;
-  border-color: #ef8094;
+.five {
+  height: 700px;
 }
 .five .set-card {
   width: 350px;
@@ -260,6 +250,20 @@ body {
   font-size: 18px;
   letter-spacing: 1%;
   line-height: 23.44px;
+}
+
+.container {
+  width: 100%;
+  margin-top: 100px;
+}
+.container .try .btn {
+  width: 284px;
+  height: 61px;
+  background-color: white;
+  color: #000000;
+  font-weight: 700;
+  border-width: 5px;
+  border-color: #ef8094;
 }
 
 @media only screen and (min-width: 550px) {
@@ -475,23 +479,14 @@ body {
     font-size: 16px;
     letter-spacing: 12%;
   }
-  .five .try {
-    width: 376px;
-    height: 199px;
-  }
-  .five .try .btn {
-    width: 284px;
-    height: 61px;
-    background-color: white;
-    color: #000000;
-    font-weight: 700;
-    border-width: 5px;
-    border-color: #ef8094;
+  .five {
+    height: 400px;
   }
   .five .set-card {
     width: 645px;
     height: 348px;
     margin-bottom: 15px;
+    margin-left: 100px;
   }
   .five .set-card .card-img {
     width: 307px;
@@ -499,29 +494,30 @@ body {
     margin-bottom: 36px;
     background-image: url(/Assets/Images/five/picture.png), url(/Assets/Images/five/art3.png);
     background-repeat: no-repeat;
-    background-size: 310px, 150px;
+    background-size: 250px, 150px;
     background-position: left 20px bottom, right bottom;
   }
   .five .set-card .card-img .number {
     height: 450px;
+    width: 500px;
   }
   .five .set-card .card-img img {
     margin-top: 55px;
     margin-left: 20px;
   }
   .five .set-card .subtitle-container {
-    margin-left: 30px;
+    margin-top: 100px;
   }
   .five .set-card .subtitle-container .subtitle {
     width: 306px;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 32px;
+    line-height: 36px;
     letter-spacing: -1%;
     font-family: "DM Serif Text";
     margin-bottom: 15px;
   }
   .five .set-card .subtitle-container .once {
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1%;
     line-height: 23.44px;
   }
@@ -739,4 +735,44 @@ body {
     font-size: 16px;
     letter-spacing: 12%;
   }
+}
+.five .set-card {
+  width: 645px;
+  height: 348px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+.five .set-card .card-img {
+  width: 328px;
+  height: 415px;
+  margin-bottom: 36px;
+  background-image: url(/Assets/Images/five/picture.png), url(/Assets/Images/five/art3.png);
+  background-repeat: no-repeat;
+  background-size: 310px, 150px;
+  background-position: left 20px bottom, right bottom;
+}
+.five .set-card .card-img .number {
+  height: 450px;
+  width: 600px;
+}
+.five .set-card .card-img img {
+  margin-top: 55px;
+  margin-left: 20px;
+}
+.five .set-card .subtitle-container {
+  margin-top: 100px;
+}
+.five .set-card .subtitle-container .subtitle {
+  width: 306px;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -1%;
+  font-family: "DM Serif Text";
+  margin-bottom: 15px;
+}
+.five .set-card .subtitle-container .once {
+  width: 445px;
+  font-size: 18px;
+  letter-spacing: 1%;
+  line-height: 23.44px;
 }/*# sourceMappingURL=style.css.map */
